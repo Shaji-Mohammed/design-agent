@@ -1,0 +1,17 @@
+{
+  "node_modules/mimetext/dist/mimetext.node.es.js": {
+    "file": "assets/mimetext.node.es-SnGFEg4f.js",
+    "name": "mimetext.node.es",
+    "src": "node_modules/mimetext/dist/mimetext.node.es.js",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/mimetext/dist/mimetext.node.es.js"
+    ]
+  }
+}
