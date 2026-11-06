@@ -1,0 +1,7287 @@
+[
+  {
+    "testCaseId": "create-simple-01",
+    "input": "Draw a single rectangle labeled Hello",
+    "response": "Done.",
+    "elements": [
+      {
+        "id": "rect-1",
+        "type": "rectangle",
+        "x": 100,
+        "y": 100,
+        "width": 180,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-1",
+        "type": "text",
+        "x": 145,
+        "y": 125,
+        "width": 90,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Hello",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 4487
+  },
+  {
+    "testCaseId": "create-simple-02",
+    "input": "Draw a circle and a square next to each other",
+    "response": "Done.",
+    "elements": [
+      {
+        "id": "ellipse-1",
+        "type": "ellipse",
+        "x": 100,
+        "y": 100,
+        "width": 120,
+        "height": 120,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-1",
+        "type": "rectangle",
+        "x": 260,
+        "y": 100,
+        "width": 120,
+        "height": 120,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 3428
+  },
+  {
+    "testCaseId": "create-simple-03",
+    "input": "Draw a simple flowchart with Start, Process, and End boxes connected by arrows",
+    "response": "Done — I created a simple flowchart with Start, Process, and End boxes connected by arrows.",
+    "elements": [
+      {
+        "id": "rect-start",
+        "type": "rectangle",
+        "x": 120,
+        "y": 80,
+        "width": 140,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-start",
+        "type": "text",
+        "x": 155,
+        "y": 96,
+        "width": 70,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Start",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-process",
+        "type": "rectangle",
+        "x": 120,
+        "y": 180,
+        "width": 140,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-process",
+        "type": "text",
+        "x": 145,
+        "y": 196,
+        "width": 90,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Process",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-end",
+        "type": "rectangle",
+        "x": 120,
+        "y": 280,
+        "width": 140,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-end",
+        "type": "text",
+        "x": 160,
+        "y": 296,
+        "width": 60,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "End",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-1",
+        "type": "arrow",
+        "x": 190,
+        "y": 140,
+        "width": 0,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            40
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-start",
+          "focus": 1,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-process",
+          "focus": 3,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-2",
+        "type": "arrow",
+        "x": 190,
+        "y": 240,
+        "width": 0,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            40
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-process",
+          "focus": 1,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-end",
+          "focus": 3,
+          "gap": 4
+        }
+      }
+    ],
+    "durationMs": 3498
+  },
+  {
+    "testCaseId": "create-simple-04",
+    "input": "Draw a diamond labeled 'Decision' with two arrows coming out of it labeled 'Yes' and 'No'",
+    "response": "Done.",
+    "elements": [
+      {
+        "id": "diamond-1",
+        "type": "diamond",
+        "x": 220,
+        "y": 120,
+        "width": 160,
+        "height": 100,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-1",
+        "type": "text",
+        "x": 255,
+        "y": 155,
+        "width": 90,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Decision",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-1",
+        "type": "arrow",
+        "x": 380,
+        "y": 145,
+        "width": 140,
+        "height": -40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            140,
+            -40
+          ]
+        ],
+        "startBinding": {
+          "elementId": "diamond-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-2",
+        "type": "arrow",
+        "x": 380,
+        "y": 195,
+        "width": 140,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            140,
+            40
+          ]
+        ],
+        "startBinding": {
+          "elementId": "diamond-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "text-2",
+        "type": "text",
+        "x": 435,
+        "y": 95,
+        "width": 50,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Yes",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-3",
+        "type": "text",
+        "x": 435,
+        "y": 215,
+        "width": 50,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "No",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 3069
+  },
+  {
+    "testCaseId": "create-simple-05",
+    "input": "Draw three rectangles in a vertical column labeled Top, Middle, Bottom",
+    "response": "Done.",
+    "elements": [
+      {
+        "id": "rect-top",
+        "type": "rectangle",
+        "x": 200,
+        "y": 60,
+        "width": 180,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-top",
+        "type": "text",
+        "x": 200,
+        "y": 80,
+        "width": 180,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Top",
+        "fontSize": 24,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-middle",
+        "type": "rectangle",
+        "x": 200,
+        "y": 170,
+        "width": 180,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-middle",
+        "type": "text",
+        "x": 200,
+        "y": 190,
+        "width": 180,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Middle",
+        "fontSize": 24,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-bottom",
+        "type": "rectangle",
+        "x": 200,
+        "y": 280,
+        "width": 180,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-bottom",
+        "type": "text",
+        "x": 200,
+        "y": 300,
+        "width": 180,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Bottom",
+        "fontSize": 24,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 3428
+  },
+  {
+    "testCaseId": "create-medium-01",
+    "input": "Draw a login flow: user enters credentials, system validates, if valid go to dashboard, if invalid show error",
+    "response": "Done — I created a login flow diagram with:\n- User enters credentials\n- System validates\n- Decision: valid or invalid\n- Valid → Dashboard\n- Invalid → Show error\n\nIf you want, I can also add a start/end terminator or make it more polished.",
+    "elements": [
+      {
+        "id": "rect-1",
+        "type": "rectangle",
+        "x": 80,
+        "y": 120,
+        "width": 180,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-1",
+        "type": "text",
+        "x": 105,
+        "y": 143,
+        "width": 130,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Enter credentials",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-2",
+        "type": "rectangle",
+        "x": 330,
+        "y": 120,
+        "width": 180,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-2",
+        "type": "text",
+        "x": 355,
+        "y": 143,
+        "width": 130,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Validate system",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "diamond-1",
+        "type": "diamond",
+        "x": 590,
+        "y": 110,
+        "width": 140,
+        "height": 90,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-3",
+        "type": "text",
+        "x": 615,
+        "y": 140,
+        "width": 90,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Valid?",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-3",
+        "type": "rectangle",
+        "x": 820,
+        "y": 60,
+        "width": 180,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-4",
+        "type": "text",
+        "x": 860,
+        "y": 83,
+        "width": 100,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Dashboard",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-4",
+        "type": "rectangle",
+        "x": 820,
+        "y": 180,
+        "width": 180,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-5",
+        "type": "text",
+        "x": 860,
+        "y": 203,
+        "width": 100,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Show error",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-1",
+        "type": "arrow",
+        "x": 260,
+        "y": 155,
+        "width": 70,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            70,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-2",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-2",
+        "type": "arrow",
+        "x": 510,
+        "y": 155,
+        "width": 80,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            80,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-2",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "diamond-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-3",
+        "type": "arrow",
+        "x": 730,
+        "y": 140,
+        "width": 90,
+        "height": -60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            90,
+            -60
+          ]
+        ],
+        "startBinding": {
+          "elementId": "diamond-1",
+          "focus": 0.2,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-3",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-4",
+        "type": "arrow",
+        "x": 730,
+        "y": 170,
+        "width": 90,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            90,
+            60
+          ]
+        ],
+        "startBinding": {
+          "elementId": "diamond-1",
+          "focus": 0.8,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-4",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "text-6",
+        "type": "text",
+        "x": 745,
+        "y": 85,
+        "width": 50,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Yes",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-7",
+        "type": "text",
+        "x": 745,
+        "y": 195,
+        "width": 50,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "No",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 7735
+  },
+  {
+    "testCaseId": "create-medium-02",
+    "input": "Draw an entity relationship diagram for a blog: Users have many Posts, Posts have many Comments",
+    "response": "Done — I created an ER-style diagram with:\n\n- Users → Posts: one-to-many\n- Posts → Comments: one-to-many\n\nIf you want, I can also make it more like a formal crow’s-foot ER diagram.",
+    "elements": [
+      {
+        "id": "rect-users",
+        "type": "rectangle",
+        "x": 80,
+        "y": 80,
+        "width": 180,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-users",
+        "type": "text",
+        "x": 125,
+        "y": 103,
+        "width": 90,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Users",
+        "fontSize": 24,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-posts",
+        "type": "rectangle",
+        "x": 340,
+        "y": 80,
+        "width": 180,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-posts",
+        "type": "text",
+        "x": 385,
+        "y": 103,
+        "width": 90,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Posts",
+        "fontSize": 24,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-comments",
+        "type": "rectangle",
+        "x": 340,
+        "y": 240,
+        "width": 180,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-comments",
+        "type": "text",
+        "x": 368,
+        "y": 263,
+        "width": 125,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Comments",
+        "fontSize": 24,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-users-posts",
+        "type": "arrow",
+        "x": 260,
+        "y": 120,
+        "width": 80,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            80,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-users",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-posts",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow-posts-comments",
+        "type": "arrow",
+        "x": 430,
+        "y": 160,
+        "width": 0,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-posts",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-comments",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "text-rel-1",
+        "type": "text",
+        "x": 265,
+        "y": 92,
+        "width": 60,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "1..*",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-rel-2",
+        "type": "text",
+        "x": 535,
+        "y": 92,
+        "width": 60,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "1..*",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-rel-3",
+        "type": "text",
+        "x": 535,
+        "y": 252,
+        "width": 60,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "1..*",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 5113
+  },
+  {
+    "testCaseId": "create-medium-03",
+    "input": "Draw a simple web architecture: Browser sends requests to a Load Balancer, which forwards to two Web Servers, which read from a Database",
+    "response": "Done — I created a simple web architecture diagram with:\n\n- Browser\n- Load Balancer\n- Two Web Servers\n- Database\n\nIf you want, I can also:\n- make it cleaner/aligned better,\n- add labels like “HTTP” or “SQL”,\n- or switch it to a left-to-right flow with a more polished layout.",
+    "elements": [
+      {
+        "id": "browser-1",
+        "type": "rectangle",
+        "x": 40,
+        "y": 120,
+        "width": 120,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "browser-text",
+        "type": "text",
+        "x": 60,
+        "y": 138,
+        "width": 80,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Browser",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "lb-1",
+        "type": "rectangle",
+        "x": 220,
+        "y": 120,
+        "width": 140,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "lb-text",
+        "type": "text",
+        "x": 235,
+        "y": 138,
+        "width": 110,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Load Balancer",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "ws1-1",
+        "type": "rectangle",
+        "x": 420,
+        "y": 70,
+        "width": 140,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "ws1-text",
+        "type": "text",
+        "x": 440,
+        "y": 88,
+        "width": 100,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Web Server 1",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "ws2-1",
+        "type": "rectangle",
+        "x": 420,
+        "y": 170,
+        "width": 140,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "ws2-text",
+        "type": "text",
+        "x": 440,
+        "y": 188,
+        "width": 100,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Web Server 2",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "db-1",
+        "type": "ellipse",
+        "x": 620,
+        "y": 110,
+        "width": 140,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "db-text",
+        "type": "text",
+        "x": 650,
+        "y": 138,
+        "width": 80,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Database",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-1",
+        "type": "arrow",
+        "x": 160,
+        "y": 150,
+        "width": 60,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            60,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "browser-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "lb-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-2",
+        "type": "arrow",
+        "x": 360,
+        "y": 135,
+        "width": 60,
+        "height": -45,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            -22.5
+          ],
+          [
+            60,
+            -45
+          ]
+        ],
+        "startBinding": {
+          "elementId": "lb-1",
+          "focus": 0.25,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "ws1-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-3",
+        "type": "arrow",
+        "x": 360,
+        "y": 165,
+        "width": 60,
+        "height": 45,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            22.5
+          ],
+          [
+            60,
+            45
+          ]
+        ],
+        "startBinding": {
+          "elementId": "lb-1",
+          "focus": 0.75,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "ws2-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-4",
+        "type": "arrow",
+        "x": 560,
+        "y": 100,
+        "width": 60,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            60,
+            50
+          ]
+        ],
+        "startBinding": {
+          "elementId": "ws1-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "db-1",
+          "focus": 0.35,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-5",
+        "type": "arrow",
+        "x": 560,
+        "y": 200,
+        "width": 60,
+        "height": -50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            60,
+            -50
+          ]
+        ],
+        "startBinding": {
+          "elementId": "ws2-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "db-1",
+          "focus": 0.65,
+          "gap": 4
+        }
+      }
+    ],
+    "durationMs": 5111
+  },
+  {
+    "testCaseId": "create-medium-04",
+    "input": "Draw a sequence diagram: Client calls Server, Server calls Database, Database returns data, Server returns response to Client",
+    "response": "Done — I created the sequence diagram with Client, Server, and Database lifelines and the request/response arrows.",
+    "elements": [
+      {
+        "id": "client-box",
+        "type": "rectangle",
+        "x": 80,
+        "y": 60,
+        "width": 140,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "client-text",
+        "type": "text",
+        "x": 95,
+        "y": 72,
+        "width": 110,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Client",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "server-box",
+        "type": "rectangle",
+        "x": 290,
+        "y": 60,
+        "width": 140,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "server-text",
+        "type": "text",
+        "x": 305,
+        "y": 72,
+        "width": 110,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Server",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "db-box",
+        "type": "rectangle",
+        "x": 500,
+        "y": 60,
+        "width": 140,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "db-text",
+        "type": "text",
+        "x": 515,
+        "y": 72,
+        "width": 110,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Database",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "lifeline-client",
+        "type": "line",
+        "x": 150,
+        "y": 110,
+        "width": 0,
+        "height": 330,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            330
+          ]
+        ]
+      },
+      {
+        "id": "lifeline-server",
+        "type": "line",
+        "x": 360,
+        "y": 110,
+        "width": 0,
+        "height": 330,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            330
+          ]
+        ]
+      },
+      {
+        "id": "lifeline-db",
+        "type": "line",
+        "x": 570,
+        "y": 110,
+        "width": 0,
+        "height": 330,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            330
+          ]
+        ]
+      },
+      {
+        "id": "arrow-1",
+        "type": "arrow",
+        "x": 150,
+        "y": 160,
+        "width": 210,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            210,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "lifeline-client",
+          "focus": 0.1,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "lifeline-server",
+          "focus": 0.1,
+          "gap": 2
+        }
+      },
+      {
+        "id": "msg-1",
+        "type": "text",
+        "x": 205,
+        "y": 135,
+        "width": 100,
+        "height": 22,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "call",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-2",
+        "type": "arrow",
+        "x": 360,
+        "y": 210,
+        "width": 210,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            210,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "lifeline-server",
+          "focus": 0.3,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "lifeline-db",
+          "focus": 0.3,
+          "gap": 2
+        }
+      },
+      {
+        "id": "msg-2",
+        "type": "text",
+        "x": 410,
+        "y": 185,
+        "width": 120,
+        "height": 22,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "query data",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-3",
+        "type": "arrow",
+        "x": 570,
+        "y": 260,
+        "width": -210,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -210,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "lifeline-db",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "lifeline-server",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "msg-3",
+        "type": "text",
+        "x": 410,
+        "y": 235,
+        "width": 120,
+        "height": 22,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "data",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-4",
+        "type": "arrow",
+        "x": 360,
+        "y": 310,
+        "width": -210,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -210,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "lifeline-server",
+          "focus": 0.7,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "lifeline-client",
+          "focus": 0.7,
+          "gap": 2
+        }
+      },
+      {
+        "id": "msg-4",
+        "type": "text",
+        "x": 205,
+        "y": 285,
+        "width": 120,
+        "height": 22,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "response",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 4932
+  },
+  {
+    "testCaseId": "create-medium-05",
+    "input": "Draw a state machine for a traffic light with Red, Yellow, Green states transitioning in order",
+    "response": "Done — I created a traffic light state machine with Red → Yellow → Green → Red transitions.\n\nIf you want, I can also:\n- add an initial state marker,\n- make it more diagram-like with circles instead of boxes,\n- or add transition labels like “timer expires.”",
+    "elements": [
+      {
+        "id": "rect-red",
+        "type": "rectangle",
+        "x": 80,
+        "y": 120,
+        "width": 120,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffd6d6",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-red",
+        "type": "text",
+        "x": 115,
+        "y": 142,
+        "width": 50,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Red",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-yellow",
+        "type": "rectangle",
+        "x": 290,
+        "y": 120,
+        "width": 120,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#fff2cc",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-yellow",
+        "type": "text",
+        "x": 315,
+        "y": 142,
+        "width": 70,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Yellow",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-green",
+        "type": "rectangle",
+        "x": 500,
+        "y": 120,
+        "width": 120,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#d9ead3",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-green",
+        "type": "text",
+        "x": 528,
+        "y": 142,
+        "width": 65,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Green",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-r-y",
+        "type": "arrow",
+        "x": 200,
+        "y": 155,
+        "width": 90,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            90,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-red",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-yellow",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-y-g",
+        "type": "arrow",
+        "x": 410,
+        "y": 155,
+        "width": 90,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            90,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-yellow",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-green",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-g-r",
+        "type": "arrow",
+        "x": 560,
+        "y": 190,
+        "width": -400,
+        "height": 110,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -150,
+            0
+          ],
+          [
+            -150,
+            110
+          ],
+          [
+            -400,
+            110
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-green",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-red",
+          "focus": 0.5,
+          "gap": 4
+        }
+      }
+    ],
+    "durationMs": 4833
+  },
+  {
+    "testCaseId": "create-complex-01",
+    "input": "Draw an org chart for a company: CEO at top, 3 VPs reporting to CEO (Engineering, Sales, Marketing), each VP has 3 directors under them",
+    "response": "Done — I created the org chart with:\n- CEO at the top\n- 3 VPs under the CEO: Engineering, Sales, Marketing\n- 3 directors under each VP\n\nIf you want, I can also make it:\n- more compact,\n- color-coded by department,\n- or styled with a cleaner enterprise layout.",
+    "elements": [
+      {
+        "id": "rect-ceo",
+        "type": "rectangle",
+        "x": 340,
+        "y": 40,
+        "width": 160,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-ceo",
+        "type": "text",
+        "x": 340,
+        "y": 55,
+        "width": 160,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "CEO",
+        "fontSize": 24,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-vp-eng",
+        "type": "rectangle",
+        "x": 80,
+        "y": 170,
+        "width": 160,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-vp-eng",
+        "type": "text",
+        "x": 80,
+        "y": 185,
+        "width": 160,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "VP Engineering",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-vp-sales",
+        "type": "rectangle",
+        "x": 340,
+        "y": 170,
+        "width": 160,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-vp-sales",
+        "type": "text",
+        "x": 340,
+        "y": 185,
+        "width": 160,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "VP Sales",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-vp-mkt",
+        "type": "rectangle",
+        "x": 600,
+        "y": 170,
+        "width": 160,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-vp-mkt",
+        "type": "text",
+        "x": 600,
+        "y": 185,
+        "width": 160,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "VP Marketing",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-ceo-eng",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            420,
+            100
+          ],
+          [
+            420,
+            135
+          ],
+          [
+            160,
+            135
+          ],
+          [
+            160,
+            170
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-ceo",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-vp-eng",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-ceo-sales",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            420,
+            100
+          ],
+          [
+            420,
+            135
+          ],
+          [
+            420,
+            135
+          ],
+          [
+            420,
+            170
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-ceo",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-vp-sales",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-ceo-mkt",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            420,
+            100
+          ],
+          [
+            420,
+            135
+          ],
+          [
+            680,
+            135
+          ],
+          [
+            680,
+            170
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-ceo",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-vp-mkt",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "rect-eng-dir-1",
+        "type": "rectangle",
+        "x": 20,
+        "y": 300,
+        "width": 140,
+        "height": 55,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-eng-dir-1",
+        "type": "text",
+        "x": 20,
+        "y": 314,
+        "width": 140,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Director Eng 1",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-eng-dir-2",
+        "type": "rectangle",
+        "x": 170,
+        "y": 300,
+        "width": 140,
+        "height": 55,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-eng-dir-2",
+        "type": "text",
+        "x": 170,
+        "y": 314,
+        "width": 140,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Director Eng 2",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-eng-dir-3",
+        "type": "rectangle",
+        "x": 320,
+        "y": 300,
+        "width": 140,
+        "height": 55,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-eng-dir-3",
+        "type": "text",
+        "x": 320,
+        "y": 314,
+        "width": 140,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Director Eng 3",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-vp-eng-1",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            160,
+            230
+          ],
+          [
+            160,
+            265
+          ],
+          [
+            90,
+            265
+          ],
+          [
+            90,
+            300
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-vp-eng",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-eng-dir-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-vp-eng-2",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            160,
+            230
+          ],
+          [
+            160,
+            265
+          ],
+          [
+            240,
+            265
+          ],
+          [
+            240,
+            300
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-vp-eng",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-eng-dir-2",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-vp-eng-3",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            160,
+            230
+          ],
+          [
+            160,
+            265
+          ],
+          [
+            390,
+            265
+          ],
+          [
+            390,
+            300
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-vp-eng",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-eng-dir-3",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "rect-sales-dir-1",
+        "type": "rectangle",
+        "x": 280,
+        "y": 300,
+        "width": 140,
+        "height": 55,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-sales-dir-1",
+        "type": "text",
+        "x": 280,
+        "y": 314,
+        "width": 140,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Director Sales 1",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-sales-dir-2",
+        "type": "rectangle",
+        "x": 430,
+        "y": 300,
+        "width": 140,
+        "height": 55,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-sales-dir-2",
+        "type": "text",
+        "x": 430,
+        "y": 314,
+        "width": 140,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Director Sales 2",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-sales-dir-3",
+        "type": "rectangle",
+        "x": 580,
+        "y": 300,
+        "width": 140,
+        "height": 55,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-sales-dir-3",
+        "type": "text",
+        "x": 580,
+        "y": 314,
+        "width": 140,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Director Sales 3",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-vp-sales-1",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            420,
+            230
+          ],
+          [
+            420,
+            265
+          ],
+          [
+            350,
+            265
+          ],
+          [
+            350,
+            300
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-vp-sales",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-sales-dir-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-vp-sales-2",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            420,
+            230
+          ],
+          [
+            420,
+            265
+          ],
+          [
+            500,
+            265
+          ],
+          [
+            500,
+            300
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-vp-sales",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-sales-dir-2",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-vp-sales-3",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            420,
+            230
+          ],
+          [
+            420,
+            265
+          ],
+          [
+            650,
+            265
+          ],
+          [
+            650,
+            300
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-vp-sales",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-sales-dir-3",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "rect-mkt-dir-1",
+        "type": "rectangle",
+        "x": 540,
+        "y": 300,
+        "width": 140,
+        "height": 55,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-mkt-dir-1",
+        "type": "text",
+        "x": 540,
+        "y": 314,
+        "width": 140,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Director Mkt 1",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-mkt-dir-2",
+        "type": "rectangle",
+        "x": 690,
+        "y": 300,
+        "width": 140,
+        "height": 55,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-mkt-dir-2",
+        "type": "text",
+        "x": 690,
+        "y": 314,
+        "width": 140,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Director Mkt 2",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-mkt-dir-3",
+        "type": "rectangle",
+        "x": 840,
+        "y": 300,
+        "width": 140,
+        "height": 55,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-mkt-dir-3",
+        "type": "text",
+        "x": 840,
+        "y": 314,
+        "width": 140,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Director Mkt 3",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-vp-mkt-1",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            680,
+            230
+          ],
+          [
+            680,
+            265
+          ],
+          [
+            610,
+            265
+          ],
+          [
+            610,
+            300
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-vp-mkt",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-mkt-dir-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-vp-mkt-2",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            680,
+            230
+          ],
+          [
+            680,
+            265
+          ],
+          [
+            760,
+            265
+          ],
+          [
+            760,
+            300
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-vp-mkt",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-mkt-dir-2",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-vp-mkt-3",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            680,
+            230
+          ],
+          [
+            680,
+            265
+          ],
+          [
+            910,
+            265
+          ],
+          [
+            910,
+            300
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-vp-mkt",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-mkt-dir-3",
+          "focus": 0.5,
+          "gap": 4
+        }
+      }
+    ],
+    "durationMs": 10422
+  },
+  {
+    "testCaseId": "create-complex-02",
+    "input": "Draw a microservices architecture: API Gateway receives requests, routes to Auth Service, User Service, Order Service, and Payment Service. Each service has its own database. Order Service also calls Payment Service.",
+    "response": "Done — I created the microservices architecture diagram with:\n\n- API Gateway routing to:\n  - Auth Service\n  - User Service\n  - Order Service\n  - Payment Service\n- Separate database for each service\n- Order Service calling Payment Service\n\nIf you want, I can also make it more polished by adding:\n- a system boundary/container\n- database cylinder icons\n- labels on arrows like “routes”, “queries”, or “calls”",
+    "elements": [
+      {
+        "id": "rect-gateway",
+        "type": "rectangle",
+        "x": 260,
+        "y": 40,
+        "width": 180,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-gateway",
+        "type": "text",
+        "x": 275,
+        "y": 55,
+        "width": 150,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "API Gateway",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-auth",
+        "type": "rectangle",
+        "x": 60,
+        "y": 160,
+        "width": 160,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-auth",
+        "type": "text",
+        "x": 85,
+        "y": 175,
+        "width": 110,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Auth Service",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-user",
+        "type": "rectangle",
+        "x": 250,
+        "y": 160,
+        "width": 160,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-user",
+        "type": "text",
+        "x": 275,
+        "y": 175,
+        "width": 110,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "User Service",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-order",
+        "type": "rectangle",
+        "x": 440,
+        "y": 160,
+        "width": 160,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-order",
+        "type": "text",
+        "x": 465,
+        "y": 175,
+        "width": 110,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Order Service",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-payment",
+        "type": "rectangle",
+        "x": 630,
+        "y": 160,
+        "width": 160,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-payment",
+        "type": "text",
+        "x": 655,
+        "y": 175,
+        "width": 110,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Payment Service",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-db-auth",
+        "type": "rectangle",
+        "x": 65,
+        "y": 280,
+        "width": 150,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-db-auth",
+        "type": "text",
+        "x": 80,
+        "y": 294,
+        "width": 120,
+        "height": 22,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Auth DB",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-db-user",
+        "type": "rectangle",
+        "x": 255,
+        "y": 280,
+        "width": 150,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-db-user",
+        "type": "text",
+        "x": 270,
+        "y": 294,
+        "width": 120,
+        "height": 22,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "User DB",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-db-order",
+        "type": "rectangle",
+        "x": 445,
+        "y": 280,
+        "width": 150,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-db-order",
+        "type": "text",
+        "x": 460,
+        "y": 294,
+        "width": 120,
+        "height": 22,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Order DB",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-db-payment",
+        "type": "rectangle",
+        "x": 635,
+        "y": 280,
+        "width": 150,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-db-payment",
+        "type": "text",
+        "x": 650,
+        "y": 294,
+        "width": 120,
+        "height": 22,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Payment DB",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-gw-auth",
+        "type": "arrow",
+        "x": 130,
+        "y": 100,
+        "width": 0,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            60
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-gateway",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-auth",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-gw-user",
+        "type": "arrow",
+        "x": 320,
+        "y": 100,
+        "width": 0,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            60
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-gateway",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-user",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-gw-order",
+        "type": "arrow",
+        "x": 410,
+        "y": 100,
+        "width": 70,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            70,
+            60
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-gateway",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-order",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-gw-payment",
+        "type": "arrow",
+        "x": 500,
+        "y": 100,
+        "width": 160,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            160,
+            60
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-gateway",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-payment",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-auth-db",
+        "type": "arrow",
+        "x": 135,
+        "y": 220,
+        "width": 0,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            60
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-auth",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-db-auth",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-user-db",
+        "type": "arrow",
+        "x": 330,
+        "y": 220,
+        "width": 0,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            60
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-user",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-db-user",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-order-db",
+        "type": "arrow",
+        "x": 515,
+        "y": 220,
+        "width": 0,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            60
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-order",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-db-order",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-payment-db",
+        "type": "arrow",
+        "x": 710,
+        "y": 220,
+        "width": 0,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            60
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-payment",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-db-payment",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-order-payment",
+        "type": "arrow",
+        "x": 600,
+        "y": 190,
+        "width": 30,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-order",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-payment",
+          "focus": 0.5,
+          "gap": 4
+        }
+      }
+    ],
+    "durationMs": 7375
+  },
+  {
+    "testCaseId": "create-complex-03",
+    "input": "Draw a complex e-commerce checkout flow with 8 steps: Cart Review, Shipping Address, Shipping Method, Payment, Order Review, Place Order, Confirmation, Email Receipt. Include error paths if payment fails.",
+    "response": "Done — I created a complex 8-step e-commerce checkout flow with a payment failure branch and retry path.\n\nIf you want, I can also:\n- make it more visually polished,\n- add a shipping failure path,\n- show an alternate “guest checkout” branch,\n- or convert it into a vertical flow for better readability.",
+    "elements": [
+      {
+        "id": "step1",
+        "type": "rectangle",
+        "x": 40,
+        "y": 120,
+        "width": 140,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step1text",
+        "type": "text",
+        "x": 52,
+        "y": 145,
+        "width": 116,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "1. Cart Review",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step2",
+        "type": "rectangle",
+        "x": 220,
+        "y": 120,
+        "width": 160,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step2text",
+        "type": "text",
+        "x": 232,
+        "y": 145,
+        "width": 136,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "2. Shipping Address",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step3",
+        "type": "rectangle",
+        "x": 410,
+        "y": 120,
+        "width": 160,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step3text",
+        "type": "text",
+        "x": 422,
+        "y": 145,
+        "width": 136,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "3. Shipping Method",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step4",
+        "type": "rectangle",
+        "x": 600,
+        "y": 120,
+        "width": 120,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step4text",
+        "type": "text",
+        "x": 612,
+        "y": 145,
+        "width": 96,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "4. Payment",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step5",
+        "type": "rectangle",
+        "x": 760,
+        "y": 120,
+        "width": 140,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step5text",
+        "type": "text",
+        "x": 772,
+        "y": 145,
+        "width": 116,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "5. Order Review",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step6",
+        "type": "rectangle",
+        "x": 930,
+        "y": 120,
+        "width": 120,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step6text",
+        "type": "text",
+        "x": 942,
+        "y": 145,
+        "width": 96,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "6. Place Order",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step7",
+        "type": "rectangle",
+        "x": 1090,
+        "y": 120,
+        "width": 140,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step7text",
+        "type": "text",
+        "x": 1102,
+        "y": 145,
+        "width": 116,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "7. Confirmation",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step8",
+        "type": "rectangle",
+        "x": 1260,
+        "y": 120,
+        "width": 140,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "step8text",
+        "type": "text",
+        "x": 1272,
+        "y": 145,
+        "width": 116,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "8. Email Receipt",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow1",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "startBinding": {
+          "elementId": "step1",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "step2",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow2",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "startBinding": {
+          "elementId": "step2",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "step3",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow3",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "startBinding": {
+          "elementId": "step3",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "step4",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow4",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "startBinding": {
+          "elementId": "step4",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "step5",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow5",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "startBinding": {
+          "elementId": "step5",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "step6",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow6",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "startBinding": {
+          "elementId": "step6",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "step7",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow7",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "startBinding": {
+          "elementId": "step7",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "step8",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "faildiamond",
+        "type": "diamond",
+        "x": 610,
+        "y": 245,
+        "width": 110,
+        "height": 80,
+        "strokeColor": "#b42318",
+        "backgroundColor": "#fef3f2",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "failtext",
+        "type": "text",
+        "x": 623,
+        "y": 272,
+        "width": 84,
+        "height": 20,
+        "strokeColor": "#b42318",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Payment Fails?",
+        "fontSize": 16,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrowFail",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#b42318",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "startBinding": {
+          "elementId": "step4",
+          "focus": 0.8,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "faildiamond",
+          "focus": 0.2,
+          "gap": 2
+        }
+      },
+      {
+        "id": "retrybox",
+        "type": "rectangle",
+        "x": 560,
+        "y": 365,
+        "width": 210,
+        "height": 70,
+        "strokeColor": "#b42318",
+        "backgroundColor": "#fff1f0",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "retrytext",
+        "type": "text",
+        "x": 575,
+        "y": 390,
+        "width": 180,
+        "height": 20,
+        "strokeColor": "#b42318",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Show error + retry payment",
+        "fontSize": 16,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrowRetry",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#b42318",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "startBinding": {
+          "elementId": "faildiamond",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "retrybox",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrowRetryBack",
+        "type": "arrow",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "strokeColor": "#b42318",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "startBinding": {
+          "elementId": "retrybox",
+          "focus": 0.2,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "step4",
+          "focus": 0.8,
+          "gap": 2
+        }
+      }
+    ],
+    "durationMs": 8807
+  },
+  {
+    "testCaseId": "create-complex-04",
+    "input": "Draw a network topology with 1 router connected to 2 switches, where each switch is connected to 4 computers and 1 printer. Show the router connecting to the internet.",
+    "response": "Done — I created the network topology diagram with:\n- 1 router connected to the internet\n- 2 switches connected to the router\n- each switch connected to 4 computers and 1 printer\n\nIf you want, I can also make it cleaner by adding labels like “LAN 1” and “LAN 2,” or rearrange it vertically.",
+    "elements": [
+      {
+        "id": "router-1",
+        "type": "rectangle",
+        "x": 330,
+        "y": 40,
+        "width": 140,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#d9e8ff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "router-text",
+        "type": "text",
+        "x": 365,
+        "y": 52,
+        "width": 70,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Router",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "internet-1",
+        "type": "ellipse",
+        "x": 520,
+        "y": 35,
+        "width": 120,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#e8ffe8",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "internet-text",
+        "type": "text",
+        "x": 545,
+        "y": 54,
+        "width": 70,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Internet",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "switch-1",
+        "type": "rectangle",
+        "x": 180,
+        "y": 160,
+        "width": 140,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#fff4cc",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "switch-1-text",
+        "type": "text",
+        "x": 210,
+        "y": 172,
+        "width": 80,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Switch 1",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "switch-2",
+        "type": "rectangle",
+        "x": 430,
+        "y": 160,
+        "width": 140,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#fff4cc",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "switch-2-text",
+        "type": "text",
+        "x": 460,
+        "y": 172,
+        "width": 80,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Switch 2",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-1",
+        "type": "rectangle",
+        "x": 40,
+        "y": 290,
+        "width": 90,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-1-text",
+        "type": "text",
+        "x": 52,
+        "y": 300,
+        "width": 66,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "PC 1",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-2",
+        "type": "rectangle",
+        "x": 150,
+        "y": 290,
+        "width": 90,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-2-text",
+        "type": "text",
+        "x": 162,
+        "y": 300,
+        "width": 66,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "PC 2",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-3",
+        "type": "rectangle",
+        "x": 260,
+        "y": 290,
+        "width": 90,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-3-text",
+        "type": "text",
+        "x": 272,
+        "y": 300,
+        "width": 66,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "PC 3",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-4",
+        "type": "rectangle",
+        "x": 370,
+        "y": 290,
+        "width": 90,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-4-text",
+        "type": "text",
+        "x": 382,
+        "y": 300,
+        "width": 66,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "PC 4",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "printer-1",
+        "type": "rectangle",
+        "x": 150,
+        "y": 360,
+        "width": 110,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#f0f0f0",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "printer-1-text",
+        "type": "text",
+        "x": 178,
+        "y": 370,
+        "width": 54,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Printer",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-5",
+        "type": "rectangle",
+        "x": 490,
+        "y": 290,
+        "width": 90,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-5-text",
+        "type": "text",
+        "x": 502,
+        "y": 300,
+        "width": 66,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "PC 1",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-6",
+        "type": "rectangle",
+        "x": 600,
+        "y": 290,
+        "width": 90,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-6-text",
+        "type": "text",
+        "x": 612,
+        "y": 300,
+        "width": 66,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "PC 2",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-7",
+        "type": "rectangle",
+        "x": 490,
+        "y": 360,
+        "width": 90,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-7-text",
+        "type": "text",
+        "x": 502,
+        "y": 370,
+        "width": 66,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "PC 3",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-8",
+        "type": "rectangle",
+        "x": 600,
+        "y": 360,
+        "width": 90,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "comp-8-text",
+        "type": "text",
+        "x": 612,
+        "y": 370,
+        "width": 66,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "PC 4",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "printer-2",
+        "type": "rectangle",
+        "x": 600,
+        "y": 430,
+        "width": 110,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#f0f0f0",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "printer-2-text",
+        "type": "text",
+        "x": 628,
+        "y": 440,
+        "width": 54,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Printer",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-router-internet",
+        "type": "arrow",
+        "x": 470,
+        "y": 60,
+        "width": 50,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            50,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "router-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "internet-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-router-switch1",
+        "type": "arrow",
+        "x": 350,
+        "y": 90,
+        "width": -130,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -65,
+            35
+          ],
+          [
+            -130,
+            70
+          ]
+        ],
+        "startBinding": {
+          "elementId": "router-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "switch-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-router-switch2",
+        "type": "arrow",
+        "x": 400,
+        "y": 90,
+        "width": 130,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            65,
+            35
+          ],
+          [
+            130,
+            70
+          ]
+        ],
+        "startBinding": {
+          "elementId": "router-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "switch-2",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-s1-pc1",
+        "type": "arrow",
+        "x": 200,
+        "y": 210,
+        "width": -130,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -65,
+            40
+          ],
+          [
+            -130,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "switch-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "comp-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-s1-pc2",
+        "type": "arrow",
+        "x": 220,
+        "y": 210,
+        "width": 0,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "switch-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "comp-2",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-s1-pc3",
+        "type": "arrow",
+        "x": 250,
+        "y": 210,
+        "width": 40,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            40,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "switch-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "comp-3",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-s1-pc4",
+        "type": "arrow",
+        "x": 270,
+        "y": 210,
+        "width": 130,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            65,
+            40
+          ],
+          [
+            130,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "switch-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "comp-4",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-s1-printer",
+        "type": "arrow",
+        "x": 240,
+        "y": 210,
+        "width": -35,
+        "height": 150,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -17,
+            75
+          ],
+          [
+            -35,
+            150
+          ]
+        ],
+        "startBinding": {
+          "elementId": "switch-1",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "printer-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-s2-pc1",
+        "type": "arrow",
+        "x": 520,
+        "y": 210,
+        "width": -30,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -15,
+            40
+          ],
+          [
+            -30,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "switch-2",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "comp-5",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-s2-pc2",
+        "type": "arrow",
+        "x": 550,
+        "y": 210,
+        "width": 80,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            40,
+            40
+          ],
+          [
+            80,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "switch-2",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "comp-6",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-s2-pc3",
+        "type": "arrow",
+        "x": 540,
+        "y": 210,
+        "width": -20,
+        "height": 150,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -10,
+            75
+          ],
+          [
+            -20,
+            150
+          ]
+        ],
+        "startBinding": {
+          "elementId": "switch-2",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "comp-7",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-s2-pc4",
+        "type": "arrow",
+        "x": 580,
+        "y": 210,
+        "width": 70,
+        "height": 150,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            35,
+            75
+          ],
+          [
+            70,
+            150
+          ]
+        ],
+        "startBinding": {
+          "elementId": "switch-2",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "comp-8",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-s2-printer",
+        "type": "arrow",
+        "x": 560,
+        "y": 210,
+        "width": 80,
+        "height": 220,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            40,
+            110
+          ],
+          [
+            80,
+            220
+          ]
+        ],
+        "startBinding": {
+          "elementId": "switch-2",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "printer-2",
+          "focus": 0.5,
+          "gap": 4
+        }
+      }
+    ],
+    "durationMs": 13761
+  },
+  {
+    "testCaseId": "modify-01",
+    "input": "make the login box red",
+    "response": "I’ll update the login box to red. If you mean a specific diagram element, please share its element id; otherwise I can’t target it precisely.I can do that, but I need the login box’s element id to modify the correct shape. If you know it, send it and I’ll turn it red.",
+    "elements": [],
+    "durationMs": 1076
+  },
+  {
+    "testCaseId": "modify-02",
+    "input": "now connect them with an arrow going from login to database",
+    "response": "I can do that, but I need the element IDs for the **login** and **database** shapes on the canvas.\n\nIf you already know them, send something like:\n- login = `rect-2`\n- database = `rect-5`\n\nThen I’ll connect them with an arrow.",
+    "elements": [],
+    "durationMs": 1134
+  },
+  {
+    "testCaseId": "modify-03",
+    "input": "rename the Process box to Validate",
+    "response": "I’ll update the label on the “Process” box to “Validate.”I can do that, but I need the element ID of the Process box to modify it.\n\nIf you know it, send the ID (for example: `rect-2`), and I’ll rename it to **Validate**.",
+    "elements": [],
+    "durationMs": 1231
+  },
+  {
+    "testCaseId": "modify-04",
+    "input": "add a Cache box between the API and the Database, and route the API through the cache",
+    "response": "Done — I added a Cache box between the API and Database and routed the API through the cache.",
+    "elements": [
+      {
+        "id": "rect-api",
+        "type": "rectangle",
+        "x": 120,
+        "y": 120,
+        "width": 140,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-api",
+        "type": "text",
+        "x": 155,
+        "y": 142,
+        "width": 70,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "API",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-cache",
+        "type": "rectangle",
+        "x": 330,
+        "y": 120,
+        "width": 160,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-cache",
+        "type": "text",
+        "x": 360,
+        "y": 142,
+        "width": 100,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Cache",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-db",
+        "type": "rectangle",
+        "x": 560,
+        "y": 120,
+        "width": 170,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-db",
+        "type": "text",
+        "x": 605,
+        "y": 142,
+        "width": 80,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Database",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-api-cache",
+        "type": "arrow",
+        "x": 260,
+        "y": 155,
+        "width": 70,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            70,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-api",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-cache",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arrow-cache-db",
+        "type": "arrow",
+        "x": 490,
+        "y": 155,
+        "width": 70,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            70,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-cache",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "rect-db",
+          "focus": 0.5,
+          "gap": 4
+        }
+      }
+    ],
+    "durationMs": 3790
+  },
+  {
+    "testCaseId": "domain-01",
+    "input": "Draw the OAuth 2.0 authorization code flow",
+    "response": "Done — I drew the OAuth 2.0 authorization code flow diagram.\n\nIf you want, I can also:\n- add the **PKCE** extension,\n- make it more **detailed** with request/response labels,\n- or simplify it into a **cleaner 4-step version**.",
+    "elements": [
+      {
+        "id": "rect-1",
+        "type": "rectangle",
+        "x": 40,
+        "y": 80,
+        "width": 180,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#f8f9fa",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-1",
+        "type": "text",
+        "x": 55,
+        "y": 103,
+        "width": 150,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Resource Owner\\n(User)",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-2",
+        "type": "rectangle",
+        "x": 290,
+        "y": 80,
+        "width": 180,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#f8f9fa",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-2",
+        "type": "text",
+        "x": 305,
+        "y": 103,
+        "width": 150,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Client App",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-3",
+        "type": "rectangle",
+        "x": 540,
+        "y": 80,
+        "width": 200,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#f8f9fa",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-3",
+        "type": "text",
+        "x": 555,
+        "y": 103,
+        "width": 170,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Authorization Server",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-4",
+        "type": "rectangle",
+        "x": 540,
+        "y": 230,
+        "width": 200,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#f8f9fa",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-4",
+        "type": "text",
+        "x": 555,
+        "y": 253,
+        "width": 170,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Resource Server",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-1",
+        "type": "arrow",
+        "x": 220,
+        "y": 115,
+        "width": 70,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            70,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-1",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-2",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "text-5",
+        "type": "text",
+        "x": 220,
+        "y": 90,
+        "width": 70,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "1. Login /\\nAuthorize",
+        "fontSize": 16,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-2",
+        "type": "arrow",
+        "x": 470,
+        "y": 115,
+        "width": 70,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            70,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-2",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-3",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "text-6",
+        "type": "text",
+        "x": 465,
+        "y": 90,
+        "width": 80,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "2. Auth request",
+        "fontSize": 16,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-3",
+        "type": "arrow",
+        "x": 640,
+        "y": 150,
+        "width": 0,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            70
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-3",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-4",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "text-7",
+        "type": "text",
+        "x": 650,
+        "y": 172,
+        "width": 130,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "3. Authorization code",
+        "fontSize": 16,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-4",
+        "type": "arrow",
+        "x": 520,
+        "y": 265,
+        "width": -110,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -110,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-4",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-2",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "text-8",
+        "type": "text",
+        "x": 390,
+        "y": 240,
+        "width": 120,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "4. Code exchange",
+        "fontSize": 16,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-5",
+        "type": "arrow",
+        "x": 470,
+        "y": 115,
+        "width": 70,
+        "height": 150,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            70,
+            150
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-2",
+          "focus": 0.9,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-4",
+          "focus": 0.1,
+          "gap": 2
+        }
+      },
+      {
+        "id": "text-9",
+        "type": "text",
+        "x": 470,
+        "y": 180,
+        "width": 120,
+        "height": 20,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "5. Access token",
+        "fontSize": 16,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 5142
+  },
+  {
+    "testCaseId": "domain-02",
+    "input": "Draw the AWS three-tier web application architecture",
+    "response": "Done — I created an AWS three-tier web application architecture diagram.\n\nIf you want, I can also:\n- add **VPC / public-private subnets**\n- include **CloudFront + S3**\n- make it a **more detailed production-grade AWS architecture**\n- simplify it into a **clean interview-style diagram**",
+    "elements": [
+      {
+        "id": "rect-user",
+        "type": "rectangle",
+        "x": 40,
+        "y": 80,
+        "width": 130,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#f8f9fa",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-user",
+        "type": "text",
+        "x": 55,
+        "y": 98,
+        "width": 100,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Users / Internet",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-waf",
+        "type": "rectangle",
+        "x": 230,
+        "y": 80,
+        "width": 130,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#fff3cd",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-waf",
+        "type": "text",
+        "x": 245,
+        "y": 98,
+        "width": 100,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Route 53 / WAF",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-alb",
+        "type": "rectangle",
+        "x": 420,
+        "y": 80,
+        "width": 150,
+        "height": 60,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#d1ecf1",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-alb",
+        "type": "text",
+        "x": 435,
+        "y": 98,
+        "width": 120,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Application Load Balancer",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-web1",
+        "type": "rectangle",
+        "x": 420,
+        "y": 190,
+        "width": 150,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#e2f0d9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-web1",
+        "type": "text",
+        "x": 440,
+        "y": 209,
+        "width": 110,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Web Tier\\nEC2 Auto Scaling",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-web2",
+        "type": "rectangle",
+        "x": 600,
+        "y": 190,
+        "width": 150,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#e2f0d9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-web2",
+        "type": "text",
+        "x": 620,
+        "y": 209,
+        "width": 110,
+        "height": 24,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Web Tier\\nEC2 Auto Scaling",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-app",
+        "type": "rectangle",
+        "x": 430,
+        "y": 310,
+        "width": 330,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#fce5cd",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-app",
+        "type": "text",
+        "x": 505,
+        "y": 333,
+        "width": 180,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Application Tier\\nEC2 / ECS / Lambda",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-db",
+        "type": "rectangle",
+        "x": 490,
+        "y": 430,
+        "width": 210,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#f4cccc",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-db",
+        "type": "text",
+        "x": 525,
+        "y": 453,
+        "width": 140,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Data Tier\\nRDS / Aurora",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "rect-cache",
+        "type": "rectangle",
+        "x": 770,
+        "y": 310,
+        "width": 170,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#d9ead3",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-cache",
+        "type": "text",
+        "x": 790,
+        "y": 333,
+        "width": 130,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "ElastiCache\\n(Optional)",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-1",
+        "type": "arrow",
+        "x": 170,
+        "y": 110,
+        "width": 60,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            60,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-user",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-waf",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow-2",
+        "type": "arrow",
+        "x": 360,
+        "y": 110,
+        "width": 60,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            60,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-waf",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-alb",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow-3",
+        "type": "arrow",
+        "x": 495,
+        "y": 140,
+        "width": 0,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            50
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-alb",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-web1",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow-4",
+        "type": "arrow",
+        "x": 570,
+        "y": 140,
+        "width": 80,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            80,
+            50
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-alb",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-web2",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow-5",
+        "type": "arrow",
+        "x": 495,
+        "y": 260,
+        "width": 100,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            100,
+            50
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-web1",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-app",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow-6",
+        "type": "arrow",
+        "x": 675,
+        "y": 260,
+        "width": -40,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -40,
+            50
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-web2",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-app",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow-7",
+        "type": "arrow",
+        "x": 595,
+        "y": 390,
+        "width": 0,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            40
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-app",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-db",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "arrow-8",
+        "type": "arrow",
+        "x": 760,
+        "y": 350,
+        "width": 10,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-app",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "rect-cache",
+          "focus": 0.5,
+          "gap": 2
+        }
+      },
+      {
+        "id": "text-labels",
+        "type": "text",
+        "x": 430,
+        "y": 540,
+        "width": 420,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Typical components: CloudFront, ALB, EC2/ECS/Lambda, RDS/Aurora, ElastiCache, S3, NAT Gateway, Security Groups",
+        "fontSize": 16,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 7945
+  },
+  {
+    "testCaseId": "domain-03",
+    "input": "Draw the relationship between a Kubernetes Pod, Service, and Deployment",
+    "response": "Done — I drew a simple Kubernetes relationship diagram showing:\n\n- Deployment managing multiple Pods\n- Service routing traffic to those Pods\n\nIf you want, I can also make a more detailed version with:\n- labels/selectors\n- replica set\n- ingress\n- traffic flow arrows",
+    "elements": [
+      {
+        "id": "deploy-rect",
+        "type": "rectangle",
+        "x": 80,
+        "y": 60,
+        "width": 180,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#e8f1ff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "deploy-text",
+        "type": "text",
+        "x": 105,
+        "y": 85,
+        "width": 130,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 0,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Deployment",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "svc-rect",
+        "type": "rectangle",
+        "x": 320,
+        "y": 60,
+        "width": 180,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#eaffea",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "svc-text",
+        "type": "text",
+        "x": 355,
+        "y": 85,
+        "width": 110,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 0,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Service",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "pod-1",
+        "type": "rectangle",
+        "x": 180,
+        "y": 220,
+        "width": 120,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#fff6dd",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "pod-1-text",
+        "type": "text",
+        "x": 215,
+        "y": 245,
+        "width": 50,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 0,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Pod",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "pod-2",
+        "type": "rectangle",
+        "x": 340,
+        "y": 220,
+        "width": 120,
+        "height": 70,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#fff6dd",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "pod-2-text",
+        "type": "text",
+        "x": 375,
+        "y": 245,
+        "width": 50,
+        "height": 25,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 0,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Pod",
+        "fontSize": 22,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "deploy-arrow-1",
+        "type": "arrow",
+        "x": 170,
+        "y": 145,
+        "width": 40,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            40
+          ],
+          [
+            0,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "deploy-rect",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "pod-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "deploy-arrow-2",
+        "type": "arrow",
+        "x": 240,
+        "y": 145,
+        "width": 180,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            90,
+            40
+          ],
+          [
+            180,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "deploy-rect",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "pod-2",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "svc-arrow-1",
+        "type": "arrow",
+        "x": 410,
+        "y": 140,
+        "width": 0,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "svc-rect",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "pod-2",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "svc-arrow-2",
+        "type": "arrow",
+        "x": 410,
+        "y": 140,
+        "width": -160,
+        "height": 80,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            -80,
+            40
+          ],
+          [
+            -160,
+            80
+          ]
+        ],
+        "startBinding": {
+          "elementId": "svc-rect",
+          "focus": 0.5,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "pod-1",
+          "focus": 0.5,
+          "gap": 4
+        }
+      },
+      {
+        "id": "label-1",
+        "type": "text",
+        "x": 85,
+        "y": 320,
+        "width": 430,
+        "height": 50,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 0,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Deployment manages Pod replicas; Service routes traffic to Pods via labels/selectors.",
+        "fontSize": 18,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 4826
+  },
+  {
+    "testCaseId": "edge-01",
+    "input": "draw something",
+    "response": "Done — I drew a simple mini-diagram with a box, a circle, and an arrow connecting them.",
+    "elements": [
+      {
+        "id": "rect-1",
+        "type": "rectangle",
+        "x": 80,
+        "y": 80,
+        "width": 180,
+        "height": 90,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#ffffff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-1",
+        "type": "text",
+        "x": 105,
+        "y": 110,
+        "width": 130,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Hello, diagram!",
+        "fontSize": 24,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "ellipse-1",
+        "type": "ellipse",
+        "x": 340,
+        "y": 80,
+        "width": 180,
+        "height": 90,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "#d7f0ff",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-2",
+        "type": "text",
+        "x": 370,
+        "y": 110,
+        "width": 120,
+        "height": 30,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "A circle",
+        "fontSize": 24,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "arrow-1",
+        "type": "arrow",
+        "x": 260,
+        "y": 125,
+        "width": 80,
+        "height": 0,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            80,
+            0
+          ]
+        ],
+        "startBinding": {
+          "elementId": "rect-1",
+          "focus": 0.5,
+          "gap": 2
+        },
+        "endBinding": {
+          "elementId": "ellipse-1",
+          "focus": 0.5,
+          "gap": 2
+        }
+      }
+    ],
+    "durationMs": 3690
+  },
+  {
+    "testCaseId": "edge-02",
+    "input": "Draw a square that is also a circle",
+    "response": "Done — I drew a “square circle” as a circle with the label “Square circle.”",
+    "elements": [
+      {
+        "id": "shape-1",
+        "type": "ellipse",
+        "x": 120,
+        "y": 100,
+        "width": 180,
+        "height": 180,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      },
+      {
+        "id": "text-1",
+        "type": "text",
+        "x": 145,
+        "y": 170,
+        "width": 130,
+        "height": 40,
+        "strokeColor": "#1e1e1e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "roughness": 1,
+        "opacity": 100,
+        "text": "Square circle",
+        "fontSize": 20,
+        "fontFamily": 1,
+        "textAlign": "center"
+      }
+    ],
+    "durationMs": 2459
+  }
+]
