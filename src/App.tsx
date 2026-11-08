@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef, useEffect } from "react";
+import { useState, useCallback, useRef, useEffect, useMemo } from "react";
 import type { ExcalidrawImperativeAPI } from "@excalidraw/excalidraw/types";
 import Canvas from "./components/Canvas";
 import { useAgentChat } from "agents/chat/react";
@@ -26,6 +26,19 @@ export default function App() {
   const agent = useAgent({ agent: "design-agent", name: sessionId });
 
   const { messages, sendMessage, status } = useAgentChat({ agent });
+  const sendWithCanvas = useMemo(
+    () => (msg: { role: "user"; parts: { type: "text"; text: string }[] }) => {
+      const elements = excalidrawAPI?.getSceneElements() ?? [];
+      sendMessage({
+        ...msg,
+        parts: [
+          ...msg.parts,
+          { type: "data-canvas-state", data: { elements } },
+        ],
+      });
+    },
+    [sendMessage, excalidrawAPI],
+  );
 
   useEffect(() => {
     if (!excalidrawAPI) return;
@@ -85,9 +98,16 @@ export default function App() {
       </div>
       <ChatPanel
         messages={messages}
-        sendMessage={sendMessage}
+        sendMessage={sendWithCanvas}
         status={status}
       />
+      <a
+        href="#viewer"
+        className="viewer-launch"
+        title="Open diagram viewer for human scoring"
+      >
+        viewer
+      </a>
     </div>
   );
 }
