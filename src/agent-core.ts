@@ -5,8 +5,9 @@ import {
   type LanguageModel,
   type ModelMessage,
 } from "ai";
-import { tools } from "./tools";
+import { buildTools } from "./tools";
 import { serializeCanvasState } from "./context/canvas-state";
+import { ExcalidrawElement } from "./schema";
 
 export const SYSTEM_PROMPT = `# Role
 
@@ -52,9 +53,13 @@ interface AgentArgs {
   canvasState?: any[];
   system?: string;
   maxSteps?: number;
+  env: any;
 }
 
-const buildSystemPrompt = (base: string, canvasState: any[]) => {
+const buildSystem = (
+  base: string,
+  canvasState: ExcalidrawElement[] | undefined,
+): string => {
   return `${base}\n\n# Current Canvas State\n\n${serializeCanvasState(canvasState ?? [])}`;
 };
 
@@ -65,12 +70,13 @@ export function streamAgent({
   system = SYSTEM_PROMPT,
   maxSteps = 5,
   canvasState,
+  env,
 }: AgentArgs) {
   return streamText({
     model,
-    system: buildSystemPrompt(system, canvasState),
+    system: buildSystem(system, canvasState),
     messages,
-    tools,
+    tools: buildTools(env),
     stopWhen: stepCountIs(maxSteps),
   });
 }
