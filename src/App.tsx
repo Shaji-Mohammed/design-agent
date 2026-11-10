@@ -14,12 +14,16 @@ import { useAgent } from "agents/react";
 
 const sessionId = crypto.randomUUID();
 
-function stripNulls(obj: any) {
-  const out: any = {};
-  for (const [k, v] of Object.entries(obj)) {
-    if (v !== null) out[k] = v;
+function stripNulls(value: unknown): unknown {
+  if (Array.isArray(value)) return value.map(stripNulls);
+  if (value && typeof value === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(value as Record<string, unknown>)) {
+      if (v !== null) out[k] = stripNulls(v);
+    }
+    return out;
   }
-  return out;
+  return value;
 }
 
 export default function App() {
