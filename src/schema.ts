@@ -6,14 +6,16 @@ export interface BaseElement {
   height: number;
   strokeColor: string;
   backgroundColor: string;
-  fillStyle: "solid" | "hachure" | "cross-hacther";
-  strokewidth: number;
+  fillStyle: "solid" | "hachure" | "cross-hatch";
+  strokeWidth: number;
   roughness: number;
   opacity: number;
   angle: number;
+  groupIds: string[];
   isDeleted: boolean;
   boundElements: { id: string; type: "arrow" | "text" }[] | null;
 }
+
 export interface RectangleElement extends BaseElement {
   type: "rectangle";
   roundness: { type: number; value?: number } | null;

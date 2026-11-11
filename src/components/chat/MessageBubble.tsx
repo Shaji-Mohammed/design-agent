@@ -1,5 +1,5 @@
+import type { UIMessage } from "ai";
 import MarkdownRenderer from "./MarkdownRenderer";
-import { type UIMessage } from "ai";
 import ToolStatus from "../streaming/ToolStatus";
 import "../streaming/streaming.css";
 
@@ -15,6 +15,7 @@ export default function MessageBubble({ message }: MessageBubbleProps) {
       </div>
       <div className="message-content">
         {message.parts?.map((part, i) => {
+          // Plain text part
           if (part.type === "text") {
             if (message.role === "assistant") {
               return <MarkdownRenderer key={i} content={part.text} />;
@@ -22,6 +23,7 @@ export default function MessageBubble({ message }: MessageBubbleProps) {
             return <p key={i}>{part.text}</p>;
           }
 
+          // Tool call part: type is `tool-<toolName>` (e.g. tool-generateDiagram)
           if (part.type?.startsWith("tool-")) {
             const toolName = part.type.replace("tool-", "");
             const toolPart = part as { state?: string };
@@ -31,7 +33,6 @@ export default function MessageBubble({ message }: MessageBubbleProps) {
                 : toolPart.state === "output-error"
                   ? "error"
                   : "running";
-
             return <ToolStatus key={i} name={toolName} status={status} />;
           }
 

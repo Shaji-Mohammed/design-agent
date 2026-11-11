@@ -1,7 +1,6 @@
-import { UIMessage } from "ai";
-import MessageBubble from "./MessageBubble";
-import type { Message } from "./types";
 import { useEffect, useRef } from "react";
+import type { UIMessage } from "ai";
+import MessageBubble from "./MessageBubble";
 
 interface MessageListProps {
   messages: UIMessage[];
@@ -9,12 +8,13 @@ interface MessageListProps {
 
 export default function MessageList({ messages }: MessageListProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+  // Track whether the user was at (or near) the bottom before the last update
+  // so we only auto scroll when they were already following along.
   const wasAtBottomRef = useRef(true);
 
   const handleScroll = () => {
     const el = containerRef.current;
     if (!el) return;
-
     const distanceFromBottom = el.scrollHeight - el.scrollTop - el.clientHeight;
     wasAtBottomRef.current = distanceFromBottom < 50;
   };

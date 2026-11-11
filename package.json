@@ -10,14 +10,15 @@
     "docs": "vitepress dev lessons --port=5170",
     "docs:build": "vitepress build lessons",
     "agent": "node scripts/test-agent.mjs",
-    "eval": "dotenv run -f .dev.vars -- braintrust eval evals/diagram.eval.ts"
+    "eval": "dotenv run -f .dev.vars -- braintrust eval evals/diagram.eval.ts",
+    "embed": "dotenv run -f .dev.vars -- tsx src/rag/embed.ts"
   },
   "dependencies": {
     "@ai-sdk/openai": "^4.0.102",
-    "@ai-sdk/react": "^4.0.162",
+    "@ai-sdk/react": "^4.0.173",
     "@cloudflare/ai-chat": "^0.12.2",
     "@excalidraw/excalidraw": "^0.18.0",
-    "@toon-format/toon": "^4.4.0",
+    "@upstash/vector": "^1.2.3",
     "agents": "^0.30.1",
     "ai": "^7.0.153",
     "react": "^19.0.0",
@@ -30,6 +31,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^4.0.0",
+    "autoevals": "^0.0.132",
     "braintrust": "^3.42.0",
     "dotenv": "^18.0.9",
     "dotenv-cli": "^11.1.0",
